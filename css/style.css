@@ -476,25 +476,25 @@ margin-right: 155px;
     border: 1px solid #C5AC2D;
 }
 
-.footer__top{
-    
+.footer{
+    padding: 100px 0 24px;
+    background-color: #332208;
 }
-.application-btn{
 
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
 }
 
 .footer__social{
-
-}
-
-.footer__social-item{
-
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer__social-link{
-
-}
-
-.footer__social-img{
-
+    margin: 0 15px;
 }
