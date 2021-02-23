@@ -406,3 +406,61 @@ margin-right: 155px;
     margin: 0px 5px;
     line-height: 12px;
 }
+
+.feedback{
+    padding: 100px 0;
+}
+
+.feedback__inner{
+    display: flex;
+    align-items: center;
+}
+
+.feedback__imeges{
+    width: 50%;
+}
+
+.feedback__form{
+    width: 415px;
+    margin: 0 auto;
+}
+
+.feedback__title{
+    font-family: 'Fira Sans', sans-serif; 
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 5px;
+}
+
+.feedback__text{
+    margin-bottom: 30px;
+}
+
+.feedback__input{
+    display: block;
+    padding: 20px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.feedback__input::placeholder{
+    line-height: 19px;
+    font-size: 16px;
+    color: #1B1818;
+}
+
+.feedback__btm {
+    text-transform: uppercase;
+    color: #fefefe;
+    border: none;
+    display: inline-block;
+    padding: 16px 36px 15px;
+    background-color: #C5AC2D;
+    margin-top: 50px;
+}
+
+
+
+
