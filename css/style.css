@@ -41,11 +41,9 @@ body{
 .menu__list{
     display: flex;
 }
-
 .menu__item{
     margin: 0 15px;
 }
-
 .menu__list-link{
     text-transform: uppercase;
     color: #fefefe;
@@ -55,32 +53,26 @@ body{
     transition: all .5s;
     border-bottom: 1px solid transparent; /*прозрачный*/
 }
-
 .menu__list-link:hover{
     border-bottom: 1px solid #fefefe;
 }
-
 .phone{
     color: #fefefe;
     font-size: 18px;
     line-height: 21px;   
 }
-
 .top{
     padding-bottom: 100px;
 }
-
 .top__heading{
    display: flex; 
    padding: 50px 0 30px;
 }
-
 .top__content{
     text-align: center;
     padding-top: 90px;
     width: 50%;
 }
-
 .top__title{
     font-family: 'Fira Sans', sans-serif; 
     font-weight: 500;
@@ -89,14 +81,12 @@ body{
     margin: 0 auto 20px;
     max-width: 500px;
 }
-
 .top__text{
     font-size: 24px;
     line-height: 28px;
     margin: 0 auto 60px;
     max-width: 470px;
 }
-
 .application-btn{
     text-transform: uppercase;
     color: #fefefe;
@@ -106,17 +96,14 @@ body{
     border: 1px solid transparent;
     display: inline-block;
 }
-
 .application-btn:hover {
     color: #C5AC2D;
     background-color: #fefefe;
     border: 1px solid #C5AC2D;
 }
-
 .top__slider{
     width: 50%;
 }
-
 .top__slider .slick-dots{
     position: absolute;
     right: 0;
@@ -128,7 +115,6 @@ body{
     list-style: none;
     text-align: center;
 }
-
 .slick-dots button{
     font-size: 0;
     width: 8px;
@@ -138,12 +124,10 @@ body{
     border-radius: 50%;
     padding: 0;
 }
-
 .slick-active button{
     width: 16px;
     height: 16px;
 }
-
 .slick-active button:focus{
     text-decoration: none;
     border: none;
@@ -533,6 +517,9 @@ margin-right: 155px;
         background-color: #fefefe;
         left: 0;
         top: 8px;
+    }
+    .rent__item{
+        margin: 30px;
     }
 }
 
