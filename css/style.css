@@ -457,6 +457,9 @@ margin-right: 155px;
 }
 
 @media (max-width: 1000px){
+    .footer .menu{
+        display: none;
+    }
     .top__heading{
         display: block;
     }
@@ -540,11 +543,25 @@ margin-right: 155px;
         left: 0;
         top: 8px;
     }
+    .top__heading{
+        padding: 0 0 30px;
+    }
     .top__item {
         margin: 0 5px;
     }
     .rent__item{
         margin: 30px;
+    }
+    .feedback__images{
+        display: none;
+    }
+    .top,
+    .footer,
+    .feedback,
+    .reviews,
+    .benefits,
+    .rent{
+        padding: 50px 0;
     }
 }
 
@@ -584,8 +601,20 @@ margin-right: 155px;
         right: auto;
         left: 0;
     }
-    .benefits__list,  .benefits__content{
+    .benefits__list,  
+    .benefits__content{
         width: 100%;
+    }
+}
+
+@media (max-width: 450px){
+    .footer__top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .phone{
+        margin-top: 30px;
+        display: inline-block;
     }
 }
 
